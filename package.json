@@ -1,0 +1,20 @@
+{
+  "name": "alen-ajam-website",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Alen Ajam's personal website - alenajam.dev",
+  "license": "",
+  "author": "Alen Ajam",
+  "scripts": {
+    "build": "parcel build index.html",
+    "dev": "parcel index.html --open",
+    "start": "npm run build && npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "browserslist": [
+    "since 2017-06"
+  ],
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
