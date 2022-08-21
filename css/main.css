@@ -336,14 +336,20 @@ body {
   text-decoration: none;
 }
 
-.link:hover {
-  color: #651DFF;
+#my-name {
+  border-right: .15em solid #222;
+  animation: blink-caret .75s step-end infinite;
 }
 
 .wavy {
   text-decoration: underline;
   text-decoration-style: wavy;
   text-decoration-color: darkred;
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #222; }
 }
 
 @media screen and (max-width: 1200px) {
@@ -386,5 +392,11 @@ body {
 
   .bio {
     font-size: 1.1rem;
+  }
+}
+
+@media screen and (hover: hover) {
+  .link:hover {
+    color: #651DFF;
   }
 }

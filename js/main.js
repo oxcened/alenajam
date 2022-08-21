@@ -24,6 +24,7 @@ const writeChar = () => {
 };
 
 const startLoader = () => {
+  myName.style.borderRight = 'none';
   myName.innerText = '.';
   bracketStart.innerText = '';
   bracketEnd.innerText = '';
