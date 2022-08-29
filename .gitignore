@@ -4,6 +4,4 @@
 node_modules
 dist
 .cache
-firebase.json
-.firebaserc
 /.firebase/
