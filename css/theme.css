@@ -1,0 +1,174 @@
+:root {
+  --background: #E4E4E4;
+  --primary: #222;
+  --accent: #651DFF;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter.ttf');
+  font-weight: 100 1000;
+}
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: var(--background);
+}
+
+.container {
+  margin: 0 auto;
+  padding: 2rem 3rem;
+  background-image: url('../img/alen.png');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: auto 95%;
+  min-height: 100vh;
+  max-width: 1500px;
+  box-sizing: border-box;
+}
+
+.left-panel {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  max-width: 30rem;
+}
+
+.header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.title {
+  font-size: 6rem;
+  margin-top: 1rem;
+  margin-bottom: 1.8rem;
+  line-height: normal;
+  width: 16.25rem;
+}
+
+.bio {
+  margin-bottom: 2.8rem;
+  margin-top: 0;
+  text-align: justify;
+  font-size: 1.25rem;
+}
+
+.links {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  font-size: 1.375rem;
+  column-gap: 2rem;
+  row-gap: .5rem;
+}
+
+.link,
+.button {
+  font-weight: bold;
+  display: block;
+  transition: color 300ms, background 300ms;
+  text-decoration: none;
+}
+
+.link {
+  color: #222;
+}
+
+.button {
+  border: var(--primary) .2rem solid;
+  color: var(--primary);
+  padding: 0 .5rem;
+  margin-top: 1.5rem;
+  font-size: 1.375rem;
+  text-align: center;
+}
+
+#my-name {
+  border-right: .15em solid #222;
+  animation: blink-caret .75s step-end infinite;
+}
+
+.wavy {
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: darkred;
+}
+
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent
+  }
+  50% {
+    border-color: #222;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    background-position-y: bottom;
+    background-size: auto 60%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    background-image: none;
+  }
+
+  .left-panel {
+    max-width: unset;
+  }
+
+  .container {
+    max-width: 40rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .header,
+  .link,
+  .button {
+    font-size: 1.25rem;
+  }
+
+  .button {
+  }
+
+  .title {
+    font-size: 4rem;
+  }
+
+  .links {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .title {
+    font-size: 3.5rem;
+  }
+
+  .bio {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (hover: hover) {
+  .link:hover {
+    color: var(--accent);
+  }
+
+  .button:hover {
+    background: var(--primary);
+    color: white;
+  }
+}
