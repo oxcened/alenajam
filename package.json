@@ -1,20 +1,31 @@
 {
-  "name": "alen-ajam-website",
-  "private": true,
-  "version": "0.0.1",
-  "description": "Alen Ajam's personal website - alenajam.dev",
-  "license": "",
-  "author": "Alen Ajam",
+  "name": "oxcened",
+  "version": "2.0.0",
+  "description": "Personal website of Alen Ajam",
   "scripts": {
-    "build": "parcel build index.html",
-    "dev": "parcel index.html --open",
-    "start": "npm run build && npm run dev",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html"
   },
-  "browserslist": [
-    "since 2017-06"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oxcened/oxcened.git"
+  },
+  "keywords": [
+    "Alen",
+    "Ajam",
+    "Alen",
+    "Ajam",
+    "oxcened"
   ],
+  "author": "Alen Ajam <hello@alenajam.dev>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oxcened/oxcened/issues"
+  },
+  "homepage": "https://github.com/oxcened/oxcened#readme",
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "parcel": "^2.8.3",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7"
   }
 }
