@@ -1,7 +1,7 @@
+### <samp>Hey there 👋</samp>
+
 <samp>
-
-### Hey there 👋
-
+  
 I'm Alen, frontend developer and React enthusiast.
 
 Right now I'm trying to get more involved in the open source world!
