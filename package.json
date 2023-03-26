@@ -2,6 +2,7 @@
   "name": "oxcened",
   "version": "2.0.0",
   "description": "Personal website of Alen Ajam",
+  "private": true,
   "scripts": {
     "dev": "parcel ./src/index.html",
     "build": "parcel build ./src/index.html"
