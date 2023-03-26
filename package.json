@@ -13,16 +13,18 @@
   "keywords": [
     "Alen",
     "Ajam",
-    "Alen",
-    "Ajam",
-    "oxcened"
+    "oxcened",
+    "personal",
+    "developer",
+    "software",
+    "frontend"
   ],
   "author": "Alen Ajam <hello@alenajam.dev>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/oxcened/oxcened/issues"
   },
-  "homepage": "https://github.com/oxcened/oxcened#readme",
+  "homepage": "https://alenajam.dev",
   "devDependencies": {
     "parcel": "^2.8.3",
     "postcss": "^8.4.21",
