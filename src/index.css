@@ -5,7 +5,3 @@
 a {
     @apply text-blue-600 hover:text-fuchsia-600 transition-colors duration-500;
 }
-
-body:has(a:hover) {
-    @apply scale-x-105;
-}
