@@ -2,11 +2,11 @@
 
 <samp>
 
-I'm Alen, frontend developer and React enthusiast.
+I'm Alen, a frontend developer and React enthusiast. 
 
-Right now I'm trying to get more involved in the open source world!
+Right now, I'm actively getting more involved in the open source community.
 
-Feel free to reach out: [alenajam.dev](https://alenajam.dev) | [hello@alenajam.dev](mailto:hello@alenajam.dev)
+[alenajam.dev](https://alenajam.dev) | [hello@alenajam.dev](mailto:hello@alenajam.dev)
 </samp>
 
 ---
