@@ -11,4 +11,4 @@ Right now, I'm actively getting more involved in the open source community.
 
 ---
 
-[![Alen Ajam's GitHub stats](https://github-readme-stats.vercel.app/api?username=oxcened&hide_rank=false&show_icons=true&custom_title=Open%20Source%20Stats&text_bold=false&theme=graywhite)](https://github.com/anuraghazra/github-readme-stats)
+<img src="https://github-readme-stats.vercel.app/api?username=oxcened&hide_rank=false&show_icons=true&custom_title=Open%20Source%20Stats&text_bold=false&theme=graywhite" width="400px" alt="Alen Ajam's open source stats" />
