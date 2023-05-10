@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 a {
-    @apply text-blue-600 underline;
+    @apply font-medium text-neutral-800 transition hover:text-neutral-500;
 }
