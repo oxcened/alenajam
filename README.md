@@ -2,9 +2,13 @@
 
 <samp>
 
-I'm Alen, frontend developer and React enthusiast.
+I'm Alen, a frontend developer and React enthusiast. 
 
-Right now I'm trying to get more involved in the open source world!
+Right now, I'm actively getting more involved in the open source community.
 
-Feel free to reach out: [alenajam.dev](https://alenajam.dev) | [hello@alenajam.dev](mailto:hello@alenajam.dev)
+[alenajam.dev](https://alenajam.dev) | [hello@alenajam.dev](mailto:hello@alenajam.dev)
 </samp>
+
+---
+
+<img src="https://github-readme-stats.vercel.app/api?username=oxcened&hide_rank=false&show_icons=true&custom_title=Open%20Source%20Stats&text_bold=false&theme=graywhite" width="400px" alt="Alen Ajam's open source stats" />
