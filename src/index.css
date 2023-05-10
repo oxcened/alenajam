@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 a {
-    @apply font-medium text-neutral-800 transition hover:text-neutral-500;
+    @apply font-medium text-neutral-800 dark:text-neutral-200 transition hover:text-neutral-500;
 }
