@@ -1,14 +1,29 @@
-### <samp>Hey there 👋</samp>
+# My Personal Website
 
-<samp>
+[![Website status](https://img.shields.io/website?url=https%3A%2F%2Falenajam.dev)](https://alenajam.dev)
 
-I'm Alen, a frontend developer and React enthusiast. 
+## Table of contents
 
-Right now, I'm actively getting more involved in the open source community.
+1. [Run on your machine](#run-on-your-machine)
+1. [Build for production](#build-for-production)
+1. [Maintainers](#maintainers)
 
-[alenajam.dev](https://alenajam.dev) | [hello@alenajam.dev](mailto:hello@alenajam.dev)
-</samp>
+## Run on your machine
 
----
+Not sure why you would want to do that?
 
-<img src="https://github-readme-stats.vercel.app/api?username=oxcened&hide_rank=false&show_icons=true&custom_title=Open%20Source%20Stats&text_bold=false&theme=graywhite" width="400px" alt="Alen Ajam's open source stats" />
+Anyway here it is:
+
+```
+npm run dev
+```
+
+## Build for production
+
+```
+npm run build
+```
+
+## Maintainers
+
+- [oxcened](https://github.com/oxcened)
