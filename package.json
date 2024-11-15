@@ -1,6 +1,6 @@
 {
   "name": "oxcened",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Personal website of Alen Ajam",
   "private": true,
   "scripts": {
@@ -29,6 +29,6 @@
   "devDependencies": {
     "parcel": "^2.8.3",
     "postcss": "^8.4.21",
-    "tailwindcss": "^3.2.7"
+    "tailwindcss": "^3.4.15"
   }
 }

@@ -24,6 +24,12 @@ npm run dev
 npm run build
 ```
 
+## Serve dist
+
+```
+cd dist && npx serve
+```
+
 ## Maintainers
 
 - [oxcened](https://github.com/oxcened)

@@ -1,42 +1,131 @@
 <!doctype html>
 <html lang="en" class="h-full">
-
 <head>
     <meta charset="UTF-8">
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="keywords" content="Alen,Ajam,personal,software,developer,front,end,web,react,tailwind,tech,lead,open,source">
     <meta name="description" content="Software developer, open source contributor, and technical writer.">
     <title>Alen Ajam</title>
     <link type="text/css" rel="stylesheet" href="./index.css">
 </head>
-
-<body class="min-h-full grid place-content-center p-6 antialiased dark:bg-neutral-900">
-
-<section class="max-w-xl space-y-6">
-    <h1 class="text-3xl lg:text-4xl font-bold tracking-tight text-neutral-800 dark:text-neutral-200">
-        Software engineer, open source contributor, and technical writer.
-    </h1>
-
-    <p class="text-justify text-neutral-600 dark:text-neutral-400">
-        My name is Alen, I'm a 24-year-old guy who lives and works in Rome. When I'm not coding at my job, it may
-        surprise you, but I still code! Recently, I've become involved with the open-source community as well, and I
-        hope to make a significant impact over time. In addition to coding myself, I enjoy teaching others through
-        Medium and LinkedIn. Let's connect!
-    </p>
-
-    <div class="flex gap-4">
-        <a href="https://www.github.com/oxcened" target="_blank">GitHub</a>
-        <a href="https://www.linkedin.com/in/alen-ajam" target="_blank">LinkedIn</a>
-        <a href="https://www.medium.com/@alen.ajam" target="_blank">Medium</a>
-        <a href="https://www.twitter.com/oxcened" target="_blank">Twitter</a>
-        <a href="mailto:hello@alenajam.dev">Email</a>
+<body class="antialiased p-5 grid grid-cols-[minmax(auto,25rem)] md:grid-cols-[minmax(auto,25rem),minmax(auto,25rem)] justify-center gap-10 text-neutral-700">
+<aside class="md:sticky top-5 self-start">
+    <img src="/assets/alen-memoji.png" alt="Alen Ajam Memoji" class="size-36 p-2 bg-neutral-100 rounded-full" />
+    <h1 class="text-4xl font-semibold mt-5">I'm Alen</h1>
+    <p class="mt-2">Software Engineer based in Rome, Italy.</p>
+    <p class="mt-2 font-light"> I mostly focus on frontend work, but I’m always up for trying new things. I love giving back, so I contribute to open-source projects and share what I’ve learned on Medium. The best part? My job lets me travel the world, and I’m soaking up every moment. Follow along on my journey! </p>
+    <div class="flex gap-2 mt-5">
+        <a class="btn-primary" href="https://github.com/oxcened" target="_blank"> GitHub <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4 text-neutral-300">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+        </svg>
+        </a>
+        <button id="button-copy-email" class="btn-outline">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 text-neutral-400">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 7.5V6.108c0-1.135.845-2.098 1.976-2.192.373-.03.748-.057 1.123-.08M15.75 18H18a2.25 2.25 0 0 0 2.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 0 0-1.123-.08M15.75 18.75v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5A3.375 3.375 0 0 0 6.375 7.5H5.25m11.9-3.664A2.251 2.251 0 0 0 15 2.25h-1.5a2.251 2.251 0 0 0-2.15 1.586m5.8 0c.065.21.1.433.1.664v.75h-6V4.5c0-.231.035-.454.1-.664M6.75 7.5H4.875c-.621 0-1.125.504-1.125 1.125v12c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V16.5a9 9 0 0 0-9-9Z" />
+            </svg>
+            <span>Copy Email</span>
+        </button>
     </div>
-</section>
-
+</aside>
+<main class="flex flex-col gap-5">
+    <div class="card">
+        <h2>Experience</h2>
+        <div class="card-item mt-4">
+            <div class="size-10 rounded-full border p-2 grid place-content-center">
+                <img src="/assets/fiscozen-logo.png" alt="Fiscozen logo" />
+            </div>
+            <div>
+                <p class="font-medium">Software Engineer</p>
+                <p class="font-light">Fiscozen</p>
+                <p class="font-light text-neutral-500">Sept 2023 – Present</p>
+            </div>
+        </div>
+        <div class="card-item mt-4">
+            <div class="size-10 rounded-full border p-1 grid place-content-center">
+                <img src="/assets/wink-logo.png" alt="Wink logo" />
+            </div>
+            <div>
+                <p class="font-medium">Software Engineer</p>
+                <p class="font-light">Wink</p>
+                <p class="font-light text-neutral-500">2019 – 2023</p>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <h2>Projects</h2>
+        <a class="card-item mt-4" href="https://github.com/oxcened/opendialer" target="_blank">
+            <div class="size-10 rounded-full border text-2xl grid place-content-center">📞</div>
+            <div>
+                <p class="font-medium">OpenDialer</p>
+                <p class="font-light">Modern and clean dialer</p>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="ml-auto size-5 text-neutral-400">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+            </svg>
+        </a>
+        <a class="card-item mt-4" href="https://github.com/oxcened/my-order" target="_blank">
+            <div class="size-10 rounded-full border text-2xl grid place-content-center">🍕</div>
+            <div>
+                <p class="font-medium">MyOrder</p>
+                <p class="font-light">Food ordering, together</p>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="ml-auto size-5 text-neutral-400">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+            </svg>
+        </a>
+    </div>
+    <div class="card">
+        <h2>Countries unlocked</h2>
+        <div class="card-item mt-4">
+            <div class="size-10 rounded-full border text-2xl grid place-content-center">🇫🇷</div>
+            <div>
+                <p class="font-medium">France</p>
+                <p class="font-light">Feb – Jun 2024</p>
+            </div>
+        </div>
+        <div class="card-item mt-4">
+            <div class="size-10 rounded-full border text-2xl grid place-content-center">🇯🇵</div>
+            <div>
+                <p class="font-medium">Japan</p>
+                <p class="font-light">Dec 2024 – Jan 2025</p>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <h2>Follow me</h2>
+        <a class="card-item mt-4" href="https://linkedin.com/in/alen-ajam" target="_blank">
+            <div class="size-10 rounded-full border p-2 grid place-content-center">
+                <img src="/assets/linkedin.png" alt="LinkedIn logo" />
+            </div>
+            <div>
+                <p class="font-medium">LinkedIn</p>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="ml-auto size-5 text-neutral-400">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+            </svg>
+        </a>
+        <a class="card-item mt-4" href="https://medium.com/@alen.ajam" target="_blank">
+            <div class="size-10 rounded-full border p-2 grid place-content-center">
+                <img src="/assets/medium.png" alt="Medium logo" />
+            </div>
+            <p class="font-medium">Medium</p>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="ml-auto size-5 text-neutral-400">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+            </svg>
+        </a>
+        <a class="card-item mt-4" href="https://x.com/ravioli2017" target="_blank">
+            <div class="size-10 rounded-full border p-2 grid place-content-center">
+                <img src="/assets/twitter.png" alt="X logo" />
+            </div>
+            <p class="font-medium">X (Twitter)</p>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="ml-auto size-5 text-neutral-400">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+            </svg>
+        </a>
+    </div>
+    <div class="card text-neutral-500"> © 2024 Alen Ajam. All rights reserved. </div>
+</main>
+<script src="./index.js"></script>
 </body>
-
 </html>
